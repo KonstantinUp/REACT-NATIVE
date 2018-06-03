@@ -10,6 +10,8 @@ import {
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 
+import ImagePicker from 'react-native-image-picker'
+
 export default class Camera extends Component {
     render() {
         return (
@@ -18,6 +20,7 @@ export default class Camera extends Component {
                     ref={ref => {
                         this.camera = ref;
                     }}
+                    autoFocus = {RNCamera.Constants.AutoFocus.on}
                     style = {styles.preview}
                     type={RNCamera.Constants.Type.back}
                     flashMode={RNCamera.Constants.FlashMode.on}
@@ -38,13 +41,20 @@ export default class Camera extends Component {
 
     takePicture = async function() {
         if (this.camera) {
-            const options = { quality: 0.5, base64: true };
+            const options = { quality: 0.5, base64: true,exif:true };
             const data = await this.camera.takePictureAsync(options);
             console.log(data.uri);
             console.log(data);
         }
     };
 }
+
+
+
+
+
+
+
 
 const styles = StyleSheet.create({
     container: {
