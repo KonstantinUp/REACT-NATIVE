@@ -29,7 +29,7 @@ export default pick =(cb) => {
         else {
             let source = { uri: response.uri };
 
-           cb(source)
+            cb(source,response.data)
 
 
         }
