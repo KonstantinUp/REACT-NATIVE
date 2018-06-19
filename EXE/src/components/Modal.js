@@ -5,7 +5,7 @@ import Modal from 'react-native-modal'
 import Button from 'react-native-button'
 import Footer from "./Footer";
 import RadioForm,{RadioButton, RadioButtonInput, RadioButtonLabel} from 'react-native-simple-radio-button';
-
+import RadioGroup from 'react-native-radio-buttons-group';
 
 let screen = Dimensions.get('window');
 export default class ModalExample extends React.Component {
@@ -20,7 +20,7 @@ export default class ModalExample extends React.Component {
             password:null,
             newPassword:null,
             newPasswordRepeat:null,
-            flatListData:[{value:1,label:'Astana'},{value:2,label:'Almaty'},{value:3,label:'Atyrau'},{value:4,label:'Shymkent'},{value:5,label:'Shymkent'},{value:6,label:'Shymkent'},{value:7,label:'Shymkent'}],
+            flatListData:[{value:1,label:'Astana'},{value:2,label:'Almaty'},{value:3,label:'Atyrau'},{value:4,label:'Shymkent2'},{value:5,label:'Shymkent3'},{value:6,label:'Shymkent4'},{value:7,label:'Shymkent'}],
             selectCity:null
 
         }
@@ -156,24 +156,26 @@ export default class ModalExample extends React.Component {
     //     )
     // };
 
-    onSelect(index, value){
+    onPress(data){
+        console.log(data);
         this.setState({
-            selectCity : {index:index,value:value}
+            selectCity :data
         })
     }
 
 
 
-
-
-
     render() {
+
+        let selectedButton = this.state.selectCity!== null ? this.state.selectCity.find(e => e.selected == true): "";
+
+        selectedButton = selectedButton ? selectedButton.value : this.state.flatListData[0].value;
 
        // let radioButtonsArr =  this.state.flatListData.map((item,index)=>{
        //             return(<RadioButtonElement value={item.city}  key={item.key}  />)
        //  });
 
-        let flatListData = [{value:111,label:'Astana'},{value:222,label:'Almaty'},{value:333,label:'Atyrau'},{value:4,label:'Shymkent'},{value:5,label:'Shymkent'},{value:6,label:'Shymkent'},{value:7,label:'Shymkent'}];
+        // let flatListData = [{value:111,label:'Astana'},{value:222,label:'Almaty'},{value:333,label:'Atyrau'},{value:4,label:'Shymkent'},{value:5,label:'Shymkent'},{value:6,label:'Shymkent'},{value:7,label:'Shymkent'}];
       console.log(this.state);
         return (
                 <Modal
@@ -323,12 +325,10 @@ export default class ModalExample extends React.Component {
                         </View>  :
 
                                 <View style = { styles.modalView }>
-                                    <RadioForm
-                                        radio_props={flatListData}
-                                        initial={0}
-                                        onPress={(value) => {this.setState({selectCity :value})}}
-                                    />
-
+                                    <RadioGroup radioButtons={this.state.flatListData}  onPress={this.onPress.bind(this)} />
+                                    <Text style={{ fontSize: 18, marginBottom: 50 }}>
+                                        Value = {selectedButton}
+                                    </Text>
                                     <Button
                                         style={{fontSize:18,color:'white'}}
                                         containerStyle = {{
