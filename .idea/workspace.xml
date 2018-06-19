@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="771effad-79e2-4f75-b89e-fc1aff7fcac5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/.watchmanconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/.watchmanconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-fetch-blob_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-image-picker_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/.gradle/2.14.1/tasks/_react-native-vector-icons_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/my-release-key.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/my-release-key.keystore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Entypo.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Entypo.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/EvilIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/EvilIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Feather.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/FontAwesome.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/FontAwesome.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Foundation.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Foundation.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/MaterialIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/MaterialIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Octicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Octicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/SimpleLineIcons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/assets/fonts/Zocial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/assets/fonts/Zocial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/java/com/exe/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/java/com/exe/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/java/com/exe/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/java/com/exe/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/keystores/BUCK" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/keystores/BUCK" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/keystores/debug.keystore.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/keystores/debug.keystore.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE-tvOS/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE-tvOS/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE-tvOSTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE-tvOSTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE.xcodeproj/xcshareddata/xcschemes/EXE-tvOS.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE.xcodeproj/xcshareddata/xcschemes/EXE-tvOS.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE.xcodeproj/xcshareddata/xcschemes/EXE.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE.xcodeproj/xcshareddata/xcschemes/EXE.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/AppDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/AppDelegate.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/Base.lproj/LaunchScreen.xib" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/Images.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/Images.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/Images.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXE/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXE/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXETests/EXETests.m" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXETests/EXETests.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/ios/EXETests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/ios/EXETests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/HeaderLeftPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/HeaderLeftPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/HeaderRightPart.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/HeaderRightPart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/ImageWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/ImageWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/LinkNewOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/LinkNewOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/Logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/Logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/Paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/components/imagePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/components/imagePicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/images/image_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/images/image_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/ActiveOrders.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/ActiveOrders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/AuthLoadingScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/AuthLoadingScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/MakeOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/MakeOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/Signin.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/Signin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/form/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/form/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/form/ourForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/form/ourForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/form/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/form/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-native-basic/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/EXE/src/store.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Modal.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/Modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="823">
+              <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadioButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/RadioButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paragraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/Paragraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret selection-end-column="41" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/pages/Settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Profile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/pages/Profile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="143" selection-start-line="26" selection-start-column="139" selection-end-line="26" selection-end-column="143" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/Logo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/Form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/pages/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageWrapper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EXE/src/components/ImageWrapper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>takeP</find>
+      <find>Modal</find>
+      <find>EXE</find>
+      <find>WrapperImage</find>
+      <find>setState</find>
+      <find>$</find>
+      <find>radioButton</find>
+      <find>radioButtonsArr</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\User\WebstormProjects\REACT-NATIVE_NEWSETTINGS\react-native-basic</dir>
+      <dir>C:\Users\User\WebstormProjects\REACT-NATIVE_NEWSETTINGS\EXE</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EXE/src/pages/ActiveOrders.js" />
+        <option value="$PROJECT_DIR$/EXE/App.js" />
+        <option value="$PROJECT_DIR$/EXE/package.json" />
+        <option value="$PROJECT_DIR$/EXE/index.js" />
+        <option value="$PROJECT_DIR$/EXE/src/pages/Profile.js" />
+        <option value="$PROJECT_DIR$/EXE/src/components/imagePicker.js" />
+        <option value="$PROJECT_DIR$/EXE/src/pages/Signin.js" />
+        <option value="$PROJECT_DIR$/EXE/src/components/RadioButton.js" />
+        <option value="$PROJECT_DIR$/EXE/src/components/Modal.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/EXE/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/EXE/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1414" />
+    <option name="width" value="2194" />
+    <option name="height" value="1079" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REACT-NATIVE_NEWSETTINGS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REACT-NATIVE_NEWSETTINGS" type="462c0819:PsiDirectoryNode" />
+              <item name="EXE" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\REACT-NATIVE_NEWSETTINGS\EXE\android" />
+      <recent name="C:\Users\User\WebstormProjects\REACT-NATIVE_NEWSETTINGS\EXE" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Modal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Modal.js" working-dir="$PROJECT_DIR$/EXE/src/components" />
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.Modal.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="771effad-79e2-4f75-b89e-fc1aff7fcac5" name="Default" comment="" />
+      <created>1529051260403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529051260403</updated>
+      <workItem from="1529051261840" duration="9264000" />
+      <workItem from="1529294971382" duration="24360000" />
+      <workItem from="1529380735229" duration="21725000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55349000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21338251" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32928178" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28431374" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33262485" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="183" selection-start-line="26" selection-start-column="175" selection-end-line="26" selection-end-column="183" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/AuthLoadingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/ImageWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/HeaderRightPart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/HeaderRightPart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/android/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/LinkNewOrder.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="118" selection-start-line="23" selection-start-column="118" selection-end-line="23" selection-end-column="118" />
+          <folding>
+            <element signature="e#1#42#0" expanded="true" />
+            <element signature="e#244#323#0" expanded="true" />
+            <element signature="e#780#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Camera.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/ActiveOrders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/MakeOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/form/store.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/imagePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/form/ourForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="76" column="133" selection-start-line="76" selection-start-column="133" selection-end-line="76" selection-end-column="133" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/form/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="114" column="34" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/AuthLoadingScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/ImageWrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/pages/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="143" selection-start-line="26" selection-start-column="139" selection-end-line="26" selection-end-column="143" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Logo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Paragraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/RadioButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXE/src/components/Modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="363" lean-forward="true" selection-start-line="363" selection-end-line="363" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
