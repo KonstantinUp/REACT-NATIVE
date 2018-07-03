@@ -1,0 +1,4 @@
+#Thu Jun 28 15:24:25 ALMT 2018
+base.0=C\:\\Users\\User\\WebstormProjects\\REACT__\\EXE\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\User\\WebstormProjects\\REACT__\\EXE\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

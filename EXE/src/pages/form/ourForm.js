@@ -15,6 +15,7 @@ import { FormLabel, FormInput, FormValidationMessage} from 'react-native-element
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {change, reset} from 'redux-form';
 import {reduxForm,Field} from "redux-form"
+import { CheckBox } from 'react-native-elements'
 
 const validate = value=>{
     const errors={};
@@ -46,7 +47,6 @@ const messageFields = ({label,meta:{error,touched},input:{onChange,value}})=>{
             <FormInput  underlineColorAndroid={'transparent'}  maxLength = {100}  multiline = {true}  numberOfLines = {4} value={value}  inputStyle={styles.inputBox} onChangeText={onChange}/>
             {touched && (error && (<Text style={{color:'red',textAlign:'center'}}>{error}</Text>))}
         </View>
-
     )
 };
 
