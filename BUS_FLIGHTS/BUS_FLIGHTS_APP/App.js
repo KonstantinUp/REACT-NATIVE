@@ -2,7 +2,11 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {createStackNavigator} from 'react-navigation';
 
-const AppStack = createStackNavigator({Initial:InitialScreen,Trips: tripsScreen,Details:DetailsScreen},{initialRouteName: 'Initial'});
+import {TripsScreen,InitialScreen,DetailsScreen} from './src/pages/index'
+
+
+
+const AppStack = createStackNavigator({Initial:InitialScreen,Trips: TripsScreen,Details:DetailsScreen},{initialRouteName: 'Initial'});
 
 export default class App extends React.Component {
   render() {
