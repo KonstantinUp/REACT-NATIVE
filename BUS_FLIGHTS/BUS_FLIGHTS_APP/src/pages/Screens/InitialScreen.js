@@ -19,6 +19,34 @@ export default class InitialScreen extends React.Component {
                       '                              "cityTo": "Москва",\n' +
                       '                              "dateTimeFrom": 1496120400,\n' +
                       '                              "dateTimeTo": 1496152800,\n' +
+                      '                              "price": 350\n' +
+                      '                          },\n' +
+                      '                            {\n' +
+                      '                              "cityFrom": "Воронеж",\n' +
+                      '                              "cityTo": "Москва",\n' +
+                      '                              "dateTimeFrom": 1496120400,\n' +
+                      '                              "dateTimeTo": 1496152800,\n' +
+                      '                              "price": 430\n' +
+                      '                          },\n' +
+                      '                             {\n' +
+                      '                              "cityFrom": "Воронеж",\n' +
+                      '                              "cityTo": "Москва",\n' +
+                      '                              "dateTimeFrom": 1496120400,\n' +
+                      '                              "dateTimeTo": 1496152800,\n' +
+                      '                              "price": 300\n' +
+                      '                          },\n' +
+                      '                              {\n' +
+                      '                              "cityFrom": "Воронеж",\n' +
+                      '                              "cityTo": "Москва",\n' +
+                      '                              "dateTimeFrom": 1496120400,\n' +
+                      '                              "dateTimeTo": 1496152800,\n' +
+                      '                              "price": 100\n' +
+                      '                          },\n' +
+                      '                               {\n' +
+                      '                              "cityFrom": "Воронеж",\n' +
+                      '                              "cityTo": "Москва",\n' +
+                      '                              "dateTimeFrom": 1496120400,\n' +
+                      '                              "dateTimeTo": 1496152800,\n' +
                       '                              "price": 500\n' +
                       '                          },\n' +
                       '                          {\n' +
@@ -37,7 +65,7 @@ export default class InitialScreen extends React.Component {
                       '                          }\n' +
                       '                      ]\n' +
                       '                  }'
-                  )},3000);
+                  )},10);
         })
        .then((res)=>{
                 return JSON.parse(res);
