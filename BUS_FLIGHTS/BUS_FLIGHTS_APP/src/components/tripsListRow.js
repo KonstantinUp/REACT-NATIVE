@@ -8,6 +8,10 @@ export default class TripListRow extends React.Component {
         super(props)
     }
 
+    handleGetTripDetails =(tripNumber)=>{
+        this.props.navigation.navigate('TripDetailsloading',{tripNumber:tripNumber});
+    };
+
     render() {
         let {trip,i} = this.props;
 
@@ -47,12 +51,32 @@ export default class TripListRow extends React.Component {
         yearEnd = endTime.getFullYear();
 
         return (
-            <TouchableOpacity style={styles.row}>
-                <View style={styles.cell}><Text style={styles.cellText}>{trip.cityFrom}</Text></View>
-                <View style={styles.cell}><Text style={styles.cellText}>{trip.cityTo}</Text></View>
-                <View style={styles.cell}><View><Text style={styles.cellText}>{`${dayNumberStart}.${monthNumberStart}.${yearStart}`}</Text></View><View ><Text style={styles.cellText}>{`${hoursStart}:${minStart}:${secStart}`}</Text></View></View>
-                <View style={styles.cell}><View><Text style={styles.cellText}>{`${dayNumberEnd}.${monthNumbeEnd}.${yearEnd}`}</Text></View><View><Text style={styles.cellText}>{`${hoursEnd}:${minEnd}:${secEnd}`}</Text></View></View>
-                <View style={styles.cell}><Text style={styles.cellText}>{trip.price}</Text></View>
+            <TouchableOpacity style={styles.row}  onPress={()=> this.handleGetTripDetails(i)}>
+                <View style={styles.cell}>
+                    <Text style={styles.cellText}>{trip.cityFrom}</Text>
+                </View>
+                <View style={styles.cell}>
+                    <Text style={styles.cellText}>{trip.cityTo}</Text>
+                </View>
+                <View style={styles.cell}>
+                    <View>
+                        <Text style={styles.cellText}>{`${dayNumberStart}.${monthNumberStart}.${yearStart}`}</Text>
+                    </View>
+                    <View>
+                        <Text style={styles.cellText}>{`${hoursStart}:${minStart}:${secStart}`}</Text>
+                    </View>
+                </View>
+                <View style={styles.cell}>
+                    <View>
+                        <Text style={styles.cellText}>{`${dayNumberEnd}.${monthNumbeEnd}.${yearEnd}`}</Text>
+                    </View>
+                    <View>
+                        <Text style={styles.cellText}>{`${hoursEnd}:${minEnd}:${secEnd}`}</Text>
+                    </View>
+                </View>
+                <View style={styles.cell}>
+                    <Text style={styles.cellText}>{trip.price}</Text>
+                </View>
             </TouchableOpacity>
         );
     }

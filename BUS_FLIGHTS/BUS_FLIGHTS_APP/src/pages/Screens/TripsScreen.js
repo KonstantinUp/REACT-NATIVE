@@ -5,7 +5,6 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 
 export default class TripsScreen extends React.Component {
     static navigationOptions = {
-        title: 'Welcome to the app!',
         header: null
     };
       constructor(props){
@@ -15,7 +14,7 @@ export default class TripsScreen extends React.Component {
     render() {
         let {navigation} = this.props;
         let tripsList = navigation.state.params.tripsData;
-        console.log(tripsList);
+
         return (
             <View style={styles.container}>
                 <View style={styles.header}>
@@ -39,7 +38,7 @@ export default class TripsScreen extends React.Component {
                     <ScrollView>
                         {
                             tripsList.map((trip,i) => {
-                                return <TripListRow trip={trip} key={i} i={i}/>
+                                return <TripListRow trip={trip} key={i} i={i} navigation={navigation}/>
                             })
                         }
                     </ScrollView>

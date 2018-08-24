@@ -3,7 +3,6 @@ import { StyleSheet, View,StatusBar,ActivityIndicator} from 'react-native';
 
 export default class InitialScreen extends React.Component {
     static navigationOptions = {
-        title: 'Welcome to the app!',
         header: null
     };
 
