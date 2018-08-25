@@ -11,6 +11,7 @@ export default class TripDetailsloadingScreen extends React.Component {
     }
 
     componentDidMount(){
+
         new Promise((resolve,reject)=>{
             setTimeout(()=>{resolve( '{"stops": "эропорт - Фабрика Рассвет,Речной вокзал-ТМК,п.Октябрьский - Заводская,п.Октябрьский-Детск.обл.больн.,Ивушка»-Мост","tripTime":"7","tripDistance":"30"}'
 
@@ -19,7 +20,7 @@ export default class TripDetailsloadingScreen extends React.Component {
             .then((res)=>{
                 return JSON.parse(res);
             }).then((obj)=>{
-            this.props.navigation.navigate('Details',{stops:obj.stops,tripTime:obj.tripTime,tripDistance:obj.tripDistance});
+            this.props.navigation.replace('Details',{stops:obj.stops,tripTime:obj.tripTime,tripDistance:obj.tripDistance,tripNumber:this.props.navigation.state.params.tripNumber});
         })
             .catch((error)=>{
                 console.log('There has been a problem with your fetch operation: ' + error.message);
@@ -29,7 +30,7 @@ export default class TripDetailsloadingScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <ActivityIndicator />
+                <ActivityIndicator size="large" color="#0000ff"/>
                 <StatusBar barStyle="default" />
             </View>
         );

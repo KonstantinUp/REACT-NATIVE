@@ -11,6 +11,8 @@ export default class InitialScreen extends React.Component {
     }
 
     componentDidMount(){
+
+        console.log(1111111111111111111111);
         new Promise((resolve,reject)=>{
                   setTimeout(()=>{resolve( '{"trips": [\n' +
                       '                          {\n' +
@@ -67,9 +69,11 @@ export default class InitialScreen extends React.Component {
                   )},10);
         })
        .then((res)=>{
+
                 return JSON.parse(res);
        }).then((obj)=>{
-            this.props.navigation.navigate('Trips',{tripsData:obj.trips});
+
+            this.props.navigation.replace('Trips',{tripsData:obj.trips});
        })
        .catch((error)=>{
            console.log('There has been a problem with your fetch operation: ' + error.message);

@@ -91,10 +91,11 @@ const styles = StyleSheet.create({
         paddingVertical: 30
     },
     cell:{
-        flex: 1, alignSelf: 'center'
+        flex: 1,
+        alignSelf: 'center'
     },
     cellText:{
         textAlign:'center',
-        fontSize:wp('3%'),
+        fontSize:wp('3%')
     }
 });

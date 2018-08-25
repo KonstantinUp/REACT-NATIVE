@@ -52,15 +52,15 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         paddingTop: 50,
-        backgroundColor:  '#1d2324',
+        backgroundColor:  '#1d2324'
     },
     header:{
         justifyContent:'flex-end',
         height:40,
         flexDirection:'row',
-        marginRight: 20,
+        paddingRight: 20,
         alignItems: 'center',
-        paddingBottom: 20
+        paddingBottom: 20,
     },
     body:{
         flex: 1,
