@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View,StatusBar,ActivityIndicator} from 'react-native';
 
-export default class InitialScreen extends React.Component {
+export default class TripsLoadingScreen extends React.Component {
     static navigationOptions = {
         header: null
     };
