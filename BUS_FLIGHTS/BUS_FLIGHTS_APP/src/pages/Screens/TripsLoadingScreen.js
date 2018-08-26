@@ -11,8 +11,6 @@ export default class TripsLoadingScreen extends React.Component {
     }
 
     componentDidMount(){
-
-        console.log(1111111111111111111111);
         new Promise((resolve,reject)=>{
                   setTimeout(()=>{resolve( '{"trips": [\n' +
                       '                          {\n' +
@@ -66,10 +64,9 @@ export default class TripsLoadingScreen extends React.Component {
                       '                          }\n' +
                       '                      ]\n' +
                       '                  }'
-                  )},10);
+                  )},2000);
         })
        .then((res)=>{
-
                 return JSON.parse(res);
        }).then((obj)=>{
 

@@ -11,10 +11,8 @@ export default class TripDetailsloadingScreen extends React.Component {
     }
 
     componentDidMount(){
-
         new Promise((resolve,reject)=>{
             setTimeout(()=>{resolve( '{"stops": "эропорт - Фабрика Рассвет,Речной вокзал-ТМК,п.Октябрьский - Заводская,п.Октябрьский-Детск.обл.больн.,Ивушка»-Мост","tripTime":"7","tripDistance":"30"}'
-
             )},10);
         })
             .then((res)=>{

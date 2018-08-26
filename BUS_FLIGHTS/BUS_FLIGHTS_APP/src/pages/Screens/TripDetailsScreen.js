@@ -2,8 +2,6 @@ import React from 'react';
 import { StyleSheet,View,Text} from 'react-native';
 import {widthPercentageToDP as wp} from "react-native-responsive-screen";
 
-
-
 export default class DetailsScreen extends React.Component {
 
     static navigationOptions = ({ navigation, screenProps }) => ({
@@ -25,7 +23,6 @@ export default class DetailsScreen extends React.Component {
         let tripDistance = navigation.state.params.tripDistance;
         let tripNumber = navigation.state.params.tripNumber;
 
-
         return (
             <View style={styles.container}>
                 <View  style = {styles.body}>
@@ -46,7 +43,6 @@ export default class DetailsScreen extends React.Component {
         );
     }
 }
-
 
 const styles = StyleSheet.create({
     container: {

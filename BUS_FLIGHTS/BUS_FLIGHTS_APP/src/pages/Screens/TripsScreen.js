@@ -29,9 +29,34 @@ export default class TripsScreen extends React.Component {
     }
 
 
-    componentDidUpdate(){
-          console.log('22222222')
-    }
+    handleSortByPrice = () => {
+        let tripsArr  = this.state.trips;
+        let tripsArrLenght = tripsArr.length;
+
+        for (let i = 0; i < tripsArrLenght-1; i++) {
+            for (let j = 0; j < tripsArrLenght-1-i; j++) {
+                if (tripsArr[j+1].price < tripsArr[j].price) {
+                    let t = tripsArr[j+1]; tripsArr[j+1] = tripsArr[j]; tripsArr[j] = t;
+                }
+            }
+        }
+        this.setState({trips:tripsArr})
+    };
+
+    handleSortByTime = () => {
+        let tripsArr  = this.state.trips;
+        let tripsArrLenght = tripsArr.length;
+
+        for (let i = 0; i < tripsArrLenght-1; i++) {
+            for (let j = 0; j < tripsArrLenght-1-i; j++) {
+                if (tripsArr[j+1].dateTimeFrom < tripsArr[j].dateTimeFrom) {
+                    let t = tripsArr[j+1]; tripsArr[j+1] = tripsArr[j]; tripsArr[j] = t;
+                }
+            }
+        }
+        this.setState({trips:tripsArr})
+    };
+
     render() {
         let {navigation} = this.props;
         let tripsList = this.state.trips;
@@ -42,13 +67,13 @@ export default class TripsScreen extends React.Component {
                     <Text style={styles.styleText}> Сортировать по :</Text>
                     <TouchableOpacity
                         style={styles.button}
-                        // onPress={this.onPress}
+                        onPress={this.handleSortByTime}
                     >
                         <Text style={styles.styleText}> Времени </Text>
                     </TouchableOpacity>
                     <TouchableOpacity
                         style={styles.button}
-                        // onPress={this.onPress}
+                        onPress={this.handleSortByPrice}
                     >
                         <Text style={styles.styleText}> Цене </Text>
                     </TouchableOpacity>
