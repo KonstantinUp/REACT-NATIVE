@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet,View,Text,TouchableOpacity,ScrollView} from 'react-native';
-import TripListRow from '../../components/tripsListRow'
+import TripRow from '../../components/tripsListRow'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 export default class TripsScreen extends React.Component {
@@ -8,12 +8,33 @@ export default class TripsScreen extends React.Component {
         header: null
     };
       constructor(props){
-          super(props)
+          super(props);
+          this.state={
+              trips:[]
+          }
       }
 
+    componentWillMount(){
+        let tripsArr  = this.props.navigation.state.params.tripsData;
+        let tripsArrLenght = tripsArr.length;
+
+        for (let i = 0; i < tripsArrLenght-1; i++) {
+            for (let j = 0; j < tripsArrLenght-1-i; j++) {
+                if (tripsArr[j+1].price < tripsArr[j].price) {
+                    let t = tripsArr[j+1]; tripsArr[j+1] = tripsArr[j]; tripsArr[j] = t;
+                  }
+            }
+        }
+         this.setState({trips:tripsArr})
+    }
+
+
+    componentDidUpdate(){
+          console.log('22222222')
+    }
     render() {
         let {navigation} = this.props;
-        let tripsList = navigation.state.params.tripsData;
+        let tripsList = this.state.trips;
 
         return (
             <View style={styles.container}>
@@ -38,7 +59,7 @@ export default class TripsScreen extends React.Component {
                     <ScrollView>
                         {
                             tripsList.map((trip,i) => {
-                                return <TripListRow trip={trip} key={i} i={i} navigation={navigation}/>
+                                return <TripRow trip={trip} key={i} i={i} navigation={navigation}/>
                             })
                         }
                     </ScrollView>

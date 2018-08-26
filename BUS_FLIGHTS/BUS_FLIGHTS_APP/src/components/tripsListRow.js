@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View,StatusBar,ActivityIndicator,Text,TouchableOpacity} from 'react-native';
 import {widthPercentageToDP as wp} from "react-native-responsive-screen";
 
-export default class TripListRow extends React.Component {
+export default class TripRow extends React.Component {
 
     constructor(props){
         super(props)
